@@ -15,3 +15,8 @@ S3 portal(s) to be called within a Jenkins build step.
 ## Feature Highlights
 * Running one or more S3-based jobs as a Jenkins build step
 * Waiting for jobs to finish (sync), or launch-and-forget (async) support
+
+## Workflow
+
+For the complete workflow of how this plugin can be used for, refer to:
+https://github.com/CiscoTestAutomation/jenkins_project_plugin/blob/master/README.md#workflow-diagram
