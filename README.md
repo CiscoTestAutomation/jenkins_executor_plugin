@@ -8,7 +8,7 @@ S3 portal(s) to be called within a Jenkins build step.
 - [Installation](guide/installation.md)
 - [Quick Start](guide/quick_start.md)
 
-## Related Plugins
+## Related pyATS Plugins
 - [pyATS Jenkins Project Plugin](https://github.com/CiscoTestAutomation/jenkins_project_plugin)
 - [pyATS Jenkins Report Plugin](https://github.com/CiscoTestAutomation/jenkins_report_plugin)
 
