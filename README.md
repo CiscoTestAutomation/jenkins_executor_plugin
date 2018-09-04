@@ -20,3 +20,7 @@ S3 portal(s) to be called within a Jenkins build step.
 
 For the complete workflow of how this plugin can be used for, refer to:
 https://github.com/CiscoTestAutomation/jenkins_project_plugin/blob/master/README.md#workflow-diagram
+
+# ChangeLog
+
+* [2018](changelog/2018/CHANGELOG.md)
