@@ -24,3 +24,5 @@ https://github.com/CiscoTestAutomation/jenkins_project_plugin/blob/master/README
 ## ChangeLog
 
 * [2018](changelog/2018/CHANGELOG.md)
+
+* [2019](changelog/2019/CHANGELOG.md)
