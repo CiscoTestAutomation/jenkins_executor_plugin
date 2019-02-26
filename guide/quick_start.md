@@ -20,7 +20,7 @@ In __Self Serve Services (S3) Servers Registration__ section click the "Add" but
 ### Step 3:
 Register the S3 Instance, the user ID, and the user's REST API Authentication Token in Jenkins. The Executor Plugin uses the token-based authorization mechanism to verify the S3 Instances.  The information can be found in the given S3 instance -> user profile -> Token UI. 
 
-`Note:  "Automation Token" is the value of the token only, exclude any prefix (ie: Jwt).`
+`Note:  "Automation Token" is the value of the token only, exclude any prefix (ie: Jwt). The token will be hidden with ****** for security purpose as the picture shown in Step 4.`
  
 ![](assets/images/sysconfig3.png)
 
