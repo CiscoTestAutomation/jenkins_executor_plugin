@@ -1,6 +1,6 @@
 | Date          | Version       |
 | ------------- |:-------------:|
-| February      | 3.3           |
+| February 26   | 3.3           |
 
 * Executor supports LAAS testbed / topology validation
 * Executor supports secure global token registration
