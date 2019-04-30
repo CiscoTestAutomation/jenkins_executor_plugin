@@ -81,7 +81,7 @@ Possible validation messages are:
   * `Fail to validate Xpresso "bundle profile" info from the entered bundle name - xxx Unexpected response from Xpresso - 404:Not Found`
 * Wrong input: `Failed - configure either testbeds or topology, but NOT both at the same time!`
 * Server connection issue: `Connect to xxx failed: Connection refused (Connection refused)`
-* Any other issues from S3: `Fail to validate Xpresso. Unexpected response from Xpresso - 401: Unauthorized`
+* Any other issues from Xpresso: `Fail to validate Xpresso. Unexpected response from Xpresso - 401: Unauthorized`
 
 ![](assets/images/buildconfig4.png)
 
