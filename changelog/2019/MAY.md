@@ -7,3 +7,4 @@
     - job arguments
     - harness arguments
     - clean info
+* Added timeout for CES monitoring
