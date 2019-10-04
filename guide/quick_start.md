@@ -64,9 +64,10 @@ Provide the information about the Xpresso job to be executed.
 * Select the "Block until completed" to block running the next build step until the current build step is completed. The status of the current build step is checked periodically (every 2 minutes). The Xpresso job status URL will be provided on the console.
 * "Environment variables", "Job arguments", and "Harness arguments" are hidden under "Xpresso arguments (variables)" button. These are optional info, and they took Json format. A basic form validation will be performed against Json format while user configure these values. They will also accept the variable substitutions. User can define native Jenkins 'multi-line string' parameters and use them in these fields. No Json validation will be performed when use variables for these fields.
 * "Clean info" is optional. It accept Json format input or variable substitution.
-* "Mata data" is optional. It accept Json format input or variable substitution.
+* "Meta text", and "Meta files" are hidden under "Meta data" button. These are optional fields. "Meta text" allows user add any text based content in the request. "Meta files" takes a list of file paths (separated with space). The contents of the files will be added into the request when submitting the build to the xpresso. User should expect to see these meta info attached on the email report by the end of the execution.
  
 ![](assets/images/buildconfig3.png)
+![](assets/images/buildconfig3_2.png)
 
 ### Step 4:
 Validate the information about the job. Once required information is completed,  click the "validate" button.
