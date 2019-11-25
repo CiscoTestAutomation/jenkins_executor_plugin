@@ -7,3 +7,4 @@
 * [May](MAY.md)
 * [August](AUG.md)
 * [September](SEP.md)
+* [November](NOV.md)

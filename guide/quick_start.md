@@ -56,7 +56,7 @@ From the "Add build step"  select  __Execute Xpresso Job__. This can be repeated
 ### Step 3:
 Provide the information about the Xpresso job to be executed.   
 
-* Complete the mandatory information such as: "Xpresso URL", "User ID", "Group name", and  "Branch name".
+* Complete the mandatory information such as: "Registered Xpresso URL", "Registered User ID", "Group name", and  "Branch name".
 * "Job name" and "profile" are mandatory when no "Bundle profile" has been specified. If "Bundle profile" is provided, do not specify the following fields: "Job name", "Profile", "Testbeds", "Topology".
 * The "Testbeds" and "Topology" are optional, if not been provided the default values configured in Xpresso will be used. "Testbeds" and "Topology" are mutually exclusive, only one can be provided.
 * "Send topology email" is optional. To send topology email, "Topology" field has to be specified.
@@ -65,6 +65,7 @@ Provide the information about the Xpresso job to be executed.
 * "Environment variables", "Job arguments", and "Harness arguments" are hidden under "Xpresso arguments (variables)" button. These are optional info, and they took Json format. A basic form validation will be performed against Json format while user configure these values. They will also accept the variable substitutions. User can define native Jenkins 'multi-line string' parameters and use them in these fields. No Json validation will be performed when use variables for these fields.
 * "Clean info" is optional. It accept Json format input or variable substitution.
 * "Meta text", and "Meta files" are hidden under "Meta data" button. These are optional fields. "Meta text" allows user add any text based content in the request. "Meta files" takes a list of file paths (separated with space). The contents of the files will be added into the request when submitting the build to the xpresso. User should expect to see these meta info attached on the email report by the end of the execution.
+* "Xpresso instance URL", and "Xpresso token" are hidden under "Advanced..." button. These are optional fields. If configured, plugin ignores the pre-registered Xpresso settings ('Registered Xpresso URL' and 'Registered user ID') and use these project level authentication to communicate with the Xpresso.
  
 ![](assets/images/buildconfig3.png)
 ![](assets/images/buildconfig3_2.png)
