@@ -5,6 +5,7 @@ The Xpresso Plugin executes sanity job(s) registered in Cisco Xpresso(s) as a Je
 ## Table Of Content
 - [Installation](guide/installation.md)
 - [Quick Start](guide/quick_start.md)
+- [Dynamic Image Copy](image.md)
 
 ## Related pyATS Plugins
 - [pyATS Jenkins Project Plugin](https://github.com/CiscoTestAutomation/jenkins_project_plugin)
